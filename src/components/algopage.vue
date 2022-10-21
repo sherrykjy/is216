@@ -74,21 +74,29 @@
         <div id='mainText'>
             <ul>
                 <li>
-                <div class="start"></div>Start Node</li>
+                    <div class="start"></div>Start Node
+                </li>
                 <li>
-                <div class="target"></div>Target Node</li>
+                    <div class="target"></div>Target Node
+                </li>
                 <li id="bombLegend">
-                <div class="object"></div>Bomb Node</li>
+                    <div class="object"></div>Bomb Node
+                </li>
                 <li id="weightLegend">
-                <div class="borderlessWeight"></div>Weight Node</li>
+                    <div class="borderlessWeight"></div>Weight Node
+                </li>
                 <li>
-                <div class="unvisited"></div>Unvisited Node</li>
+                    <div class="unvisited"></div>Unvisited Node
+                </li>
                 <li>
-                <div class="visited"></div><div class="visitedobject"></div>Visited Nodes</li>
+                    <div class="visited"></div><div class="visitedobject"></div>Visited Nodes
+                </li>
                 <li>
-                <div class="shortest-path"></div>Shortest-path Node</li>
+                    <div class="shortest-path"></div>Shortest-path Node
+                </li>
                 <li>
-                <div class="wall"></div>Wall Node</li>
+                    <div class="wall"></div>Wall Node
+                </li>
             </ul>
         </div>
         <div id="algorithmDescriptor">Pick an algorithm and visualize it!</div>

@@ -10,7 +10,6 @@
 
 <template>
     <div class="algos">
-        <h1>algo visualize</h1>
         <AlgoPage></AlgoPage>
     </div>
 </template>
