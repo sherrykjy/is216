@@ -100,7 +100,9 @@
             </ul>
         </div>
         <div id="algorithmDescriptor">Pick an algorithm and visualize it!</div>
-        <table id='board'/>
+        <table id='board'>
+            
+        </table>
     </div>
 </template>
 
@@ -108,6 +110,9 @@
 // import "@/components/bundle.vue";
 export default {
     name: "AlgoPage",
+    mounted() {
+        const bundle = require("../components/bundle.vue");
+    }
 }
 </script>
 

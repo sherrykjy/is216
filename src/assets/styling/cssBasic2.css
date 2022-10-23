@@ -394,7 +394,6 @@
   }
   
   #board td{
-    /*border: 1px solid rgb(175, 216, 248);*/
     width: 25px;
     height: 25px;
   }
@@ -6664,11 +6663,7 @@
     margin-top: 15px;
     text-align: center;
   }
-  /* @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
-    .login {
-      background-image: url(../img/login/imac-2x.png);
-    }
-  } */
+
   footer {
     background-color: #edeff1;
     color: #bac1c8;
