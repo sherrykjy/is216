@@ -61,11 +61,10 @@
           </nav>
     </div>
     <div id="tutorial">
-        <h3>Welcome to Pathfinding Visualizer!</h3>
-        <h6>This short tutorial will walk you through all of the features of this application.</h6>
-        <p>If you want to dive right in, feel free to press the "Skip Tutorial" button below. Otherwise, press "Next"!</p>
-        <div id="tutorialCounter">1/9</div>
-        <img id="mainTutorialImage" src="public/styling/c_icon.png">
+        <h3>Welcome to ACE Algorithm Visualiser!</h3>
+        <h6>We'll take you through a short tutorial and show you the features available in this application.</h6>
+        <div id="tutorialCounter">1/6</div>
+        <img id="mainTutorialImage" src="../assets/styling/welcomeicon.png">
         <button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button>
         <button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button>
         <button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>

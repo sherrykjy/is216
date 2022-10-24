@@ -356,14 +356,17 @@
   
   #tutorial > h3 {
     padding-bottom: 5px;
+    text-align: center;
   }
   
   #tutorial > h6 {
-    padding: 5px 20px 5px 20px;
+    padding: 5px 25px 5px 25px;
+    text-align: center;
   }
   
   #tutorial > p {
-    padding: 5px 20px 5px 20px;
+    padding: 5px 30px 5px 30px;
+    text-align: justify;
   }
   
   #tutorial > ul li {
@@ -371,6 +374,7 @@
     padding-bottom: 5px;
     padding-right: 40px;
     font-size: 14px;
+    text-align: left;
   }
   
   #board{

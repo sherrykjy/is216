@@ -11,6 +11,7 @@
 <template>
     <div class="algos">
         <AlgoPage></AlgoPage>
+        
     </div>
 </template>
 
