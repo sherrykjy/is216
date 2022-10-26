@@ -1035,7 +1035,7 @@ Board.prototype.toggleTutorialButtons = function() {
   let board = this;
   function nextPreviousClick() {
     if (counter === 1) {
-      document.getElementById("tutorial").innerHTML = `<h3>Welcome to  Algorithm Visualiser!</h3>
+      document.getElementById("tutorial").innerHTML = `<h3>Welcome to ACE Algorithm Visualiser!</h3>
                                                       <h6>We'll take you through a short tutorial and show you the features available in this application.</h6>
                                                       <div id="tutorialCounter">1/6</div><img id="mainTutorialImage" src="'../src/assets/styling/welcomeicon.png'">
                                                       <button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
