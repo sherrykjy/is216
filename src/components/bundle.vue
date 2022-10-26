@@ -1035,25 +1035,28 @@ Board.prototype.toggleTutorialButtons = function() {
   let board = this;
   function nextPreviousClick() {
     if (counter === 1) {
-      document.getElementById("tutorial").innerHTML = `<h3>Welcome to ACE Algorithm Visualiser!</h3>
+      document.getElementById("tutorial").innerHTML = `<h3>Welcome to  Algorithm Visualiser!</h3>
                                                       <h6>We'll take you through a short tutorial and show you the features available in this application.</h6>
-                                                      <div id="tutorialCounter">1/6</div><img id="mainTutorialImage" src="../src/assets/styling/welcomeicon.png">
+                                                      <div id="tutorialCounter">1/6</div><img id="mainTutorialImage" src="'../src/assets/styling/welcomeicon.png'">
                                                       <button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
     } else if (counter === 2) {
       document.getElementById("tutorial").innerHTML = `<h3>What is a pathfinding algorithm?</h3>
                                                       <h6>At its core, a pathfinding algorithm seeks to find the shortest path between two points. This application visualizes various pathfinding algorithms in action, and more!</h6><p>All of the algorithms on this application are adapted for a 2D grid, where 90 degree turns have a "cost" of 1 and movements from a node to another have a "cost" of 1.</p>
-                                                      <div id="tutorialCounter">${counter}/6</div><img id="mainTutorialImage" src="../src/assets/styling/destination.png"><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
+                                                      <div id="tutorialCounter">${counter}/6</div><img id="mainTutorialImage" src="../assets/styling/destination.png"><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
     } else if (counter === 3) {
       // document.getElementById("tutorial").innerHTML = `<h3>Picking an algorithm</h3><h6>Choose an algorithm from the "Algorithms" drop-down menu.</h6><p>Note that some algorithms are <i><b>unweighted</b></i>, while others are <i><b>weighted</b></i>. Unweighted algorithms do not take turns or weight nodes into account, whereas weighted ones do. Additionally, not all algorithms guarantee the shortest path. </p><img id="secondTutorialImage" src="/styling/algorithms.png"><div id="tutorialCounter">${counter}/9</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
       document.getElementById("tutorial").innerHTML = `<h3>Algorithms Offered</h3>
                                                       <h6>Select an algorithm you would like to learn about from the drop-down menu located on the Visualiser Navbar at the top of your browser.</h6>
-                                                      <p>Our application currently supports these algorithms:</p>
+                                                      <h6>Our application currently supports these algorithms:</h6>
                                                       <ul>
-                                                        <li><b>Dijkstra's Algorithm</b> (weighted): the father of pathfinding algorithms; guarantees the shortest path</li><li><b>A* Search</b> (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm</li>
-                                                        <li><b>Greedy Best-first Search</b> (weighted): a faster, more heuristic-heavy version of A*; does not guarantee the shortest path</li><li><b>Swarm Algorithm</b> (weighted): a mixture of Dijkstra's Algorithm and A*; does not guarantee the shortest-path</li>
-                                                        <li><b>Convergent Swarm Algorithm</b> (weighted): the faster, more heuristic-heavy version of Swarm; does not guarantee the shortest path</li><li><b>Bidirectional Swarm Algorithm</b> (weighted): Swarm from both sides; does not guarantee the shortest path</li>
-                                                        <li><b>Breath-first Search</b> (unweighted): a great algorithm; guarantees the shortest path</li>
-                                                        <li><b>Depth-first Search</b> (unweighted): a very bad algorithm for pathfinding; does not guarantee the shortest path</li>
+                                                        <li><b>Dijkstra's Algorithm</b></li>
+                                                        <li><b>A* Search</b></li>
+                                                        <li><b>Greedy Best-first Search</b></li>
+                                                        <li><b>Swarm Algorithm</b></li>
+                                                        <li><b>Convergent Swarm Algorithm</b></li>
+                                                        <li><b>Bidirectional Swarm Algorithm</b></li>
+                                                        <li><b>Breath-first Search</b></li>
+                                                        <li><b>Depth-first Search</b></li>
                                                       </ul>
                                                       <div id="tutorialCounter">${counter}/6</div><button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button><button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button><button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>`
 
