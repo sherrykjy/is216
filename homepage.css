@@ -45,18 +45,23 @@ li a:hover {
     background-color: rgb(212, 212, 212);
 }
 
-#first, #second {
+#first {
     font-family: 'Roboto-Thin';
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#second {
+    font-family: 'Roboto-Thin';
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 #col-2 {
     font-family: 'Roboto-Light';
-}
-
-#features {
-    padding-top: 20px;
 }
 
 video {
@@ -64,5 +69,9 @@ video {
     height: auto ;
     display: block;
     margin: 0 auto;
+    padding: 20px;
+}
+
+#reviews {
     padding: 20px;
 }
