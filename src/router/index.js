@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import About from "../views/AboutView.vue";
-import AlgoVisualizer from '../views/AlgoVisualizer.vue'
-
+import AlgoVisualizer from '../views/AlgoVisualizer.vue';
+import LandingPage from "../views/LandingHomePage.vue";
 const routes = [
   {
     path: "/",
     name: "home",
-    component: HomeView,
+    component: LandingPage,
   },
   {
     path: "/about",
