@@ -15,14 +15,14 @@
                                 Algorithms
                             </a>
                             <ul class="dropdown-menu">
-                                <li id='startButtonDijkstra' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Dijkstra's Algorithm</a></li>
-                                <li id='startButtonAStar2' class="navbar-inverse navbar-nav dropdown-item"><a href="#">A* Search</a></li>
-                                <li id='startButtonGreedy' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Greedy Search</a></li>
-                                <li id='startButtonAStar' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Swarm Algorithm</a></li>
-                                <li id='startButtonAStar3' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Convergent Swarm Algorithm</a></li>
-                                <li id='startButtonBidirectional' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Bidirectional Swarm Algorithm</a></li>
-                                <li id='startButtonBFS' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Breadth-first Search</a></li>
-                                <li id='startButtonDFS' class="navbar-inverse navbar-nav dropdown-item"><a href="#">Depth-first Search</a></li>
+                                <li id='startButtonDijkstra' class="navbar-inverse navbar-nav"><a href="#">Dijkstra's Algorithm</a></li>
+                                <li id='startButtonAStar2' class="navbar-inverse navbar-nav"><a href="#">A* Search</a></li>
+                                <li id='startButtonGreedy' class="navbar-inverse navbar-nav"><a href="#">Greedy Search</a></li>
+                                <li id='startButtonAStar' class="navbar-inverse navbar-nav"><a href="#">Swarm Algorithm</a></li>
+                                <li id='startButtonAStar3' class="navbar-inverse navbar-nav"><a href="#">Convergent Swarm Algorithm</a></li>
+                                <li id='startButtonBidirectional' class="navbar-inverse navbar-nav"><a href="#">Bidirectional Swarm Algorithm</a></li>
+                                <li id='startButtonBFS' class="navbar-inverse navbar-nav"><a href="#">Breadth-first Search</a></li>
+                                <li id='startButtonDFS' class="navbar-inverse navbar-nav"><a href="#">Depth-first Search</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -58,8 +58,17 @@
             </div>
         </nav>
     </div>
+    <div id="tutorial">
+        <h3>Welcome to ACE Algorithm Visualiser!</h3>
+        <h6>We'll take you through a short tutorial and show you the features available in this application.</h6>
+        <div id="tutorialCounter">1/6</div>
+        <img id="mainTutorialImage" src="../assets/styling/welcomeicon.png">
+        <button id="nextButton" class="btn btn-default navbar-btn" type="button">Next</button>
+        <button id="previousButton" class="btn btn-default navbar-btn" type="button">Previous</button>
+        <button id="skipButton" class="btn btn-default navbar-btn" type="button">Skip Tutorial</button>
+    </div>
     <!-- Tutorial Modal -->
-    <div id="mycustommodal tutorial">
+    <div id="mycustommodal tutorial pb-2">
         <div class="modal fade" id="tutorialpage1" aria-hidden="true" aria-labelledby="tutorialpage1Label" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -194,6 +203,8 @@
         <a id="modalButton" class="btn btn-primary" data-bs-toggle="modal" href="#tutorialpage1" role="button">Tutorial</a>
     </div>
     <div id='mainGrid'>
+
+        <!-- not centered but the wording always remains there -->
         <div id='mainText' class="d-flex flex-row justify-content-center">
             <ul>
                 <li>
@@ -219,6 +230,17 @@
                 </li>
             </ul>
         </div>
+
+        <!-- centered but wording can become abit off -->
+        <!-- <div id='mainText' class="container-fluid justify-content-center">
+            <div class="start"></div>Start Node
+            <div class="target"></div>Target Node
+            <div id="bombLegend" class="object"></div>Bomb Node
+            <div class="unvisited"></div>Unvisited Node
+            <div class="visited"></div><div class="visitedobject"></div>Visited Nodes
+            <div class="shortest-path"></div>Shortest-path Node
+            <div class="wall"></div>Wall Node
+        </div> -->
         <div id="algorithmDescriptor">Pick an algorithm and visualize it!</div>
         <table id='board'>
             
