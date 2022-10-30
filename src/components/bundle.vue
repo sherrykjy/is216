@@ -1154,17 +1154,17 @@ Board.prototype.toggleButtons = function() {
 
     document.getElementById("adjustFast").onclick = () => {
       this.speed = "fast";
-      document.getElementById("adjustSpeed").innerHTML = 'Speed: Fast<span class="caret"></span>';
+      document.getElementById("adjustSpeed").innerHTML = 'Speed: Fast';
     }
 
     document.getElementById("adjustAverage").onclick = () => {
       this.speed = "average";
-      document.getElementById("adjustSpeed").innerHTML = 'Speed: Average<span class="caret"></span>';
+      document.getElementById("adjustSpeed").innerHTML = 'Speed: Average';
     }
 
     document.getElementById("adjustSlow").onclick = () => {
       this.speed = "slow";
-      document.getElementById("adjustSpeed").innerHTML = 'Speed: Slow<span class="caret"></span>';
+      document.getElementById("adjustSpeed").innerHTML = 'Speed: Slow';
     }
 
     document.getElementById("startStairDemonstration").onclick = () => {
@@ -1377,23 +1377,23 @@ Board.prototype.toggleButtons = function() {
     if (this.currentAlgorithm !== "bidirectional") {
       document.getElementById("startButtonAddObject").className = "navbar-inverse navbar-nav";
     }
-    document.getElementById("startButtonCreateMazeOne").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonCreateMazeTwo").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonCreateMazeThree").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonCreateMazeFour").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonCreateMazeWeights").className = "navbar-inverse navbar-nav";
-    document.getElementById("startStairDemonstration").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonDFS").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonBFS").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonDijkstra").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonAStar").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonAStar2").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonAStar3").className = "navbar-inverse navbar-nav";
-    document.getElementById("adjustFast").className = "navbar-inverse navbar-nav";
-    document.getElementById("adjustAverage").className = "navbar-inverse navbar-nav";
-    document.getElementById("adjustSlow").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonBidirectional").className = "navbar-inverse navbar-nav";
-    document.getElementById("startButtonGreedy").className = "navbar-inverse navbar-nav";
+    document.getElementById("startButtonCreateMazeOne").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonCreateMazeTwo").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonCreateMazeThree").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonCreateMazeFour").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonCreateMazeWeights").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startStairDemonstration").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonDFS").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonBFS").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonDijkstra").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonAStar").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonAStar2").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonAStar3").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("adjustFast").className = "navbar-inverse navbar-nav mx-3";r
+    document.getElementById("adjustAverage").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("adjustSlow").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonBidirectional").className = "navbar-inverse navbar-nav mx-3";
+    document.getElementById("startButtonGreedy").className = "navbar-inverse navbar-nav mx-3";
     document.getElementById("actualStartButton").style.backgroundColor = "";
 
   } else {

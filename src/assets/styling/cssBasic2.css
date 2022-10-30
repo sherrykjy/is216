@@ -315,7 +315,11 @@
     right: 12%;
     bottom: 2%;
   }
-  
+
+  #modalButton{
+    color: #ffffff;
+    background-color: #4f3b73;
+  }
   #skipButton {
     color: #ffffff;
     background-color: #4f3b73;
@@ -350,6 +354,11 @@
     padding-top: 5px;
   }
   
+  #AddOnTutorialImage {
+    width: 50%;
+    padding-top: 5px;
+  }
+
   #secondTutorialImage {
     padding-top: 5px;
   }
