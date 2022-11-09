@@ -58,8 +58,8 @@
             </div>
         </nav>
     </div>
-    <div id="tutorial">
-        <h3>Welcome to ACE Algorithm Visualiser!</h3>
+    <div id="tutorial" class="container-fluid">
+        <h3>Welcome to Algorithm Visualiser!</h3>
         <h6>We'll take you through a short tutorial and show you the features available in this application.</h6>
         <div id="tutorialCounter">1/6</div>
         <img id="mainTutorialImage" src="../assets/styling/welcomeicon.png">

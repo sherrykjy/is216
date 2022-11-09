@@ -162,10 +162,8 @@ Board.prototype.changeSpecialNode = function(currentNode) {
   if (currentNode.status !== "target" && currentNode.status !== "start" && currentNode.status !== "object") {
     if (this.previouslySwitchedNode) {
       this.previouslySwitchedNode.status = this.previouslyPressedNodeStatus;
-      previousElement.className = this.previouslySwitchedNodeWeight === 15 ?
-      "unvisited weight" : this.previouslyPressedNodeStatus;
-      this.previouslySwitchedNode.weight = this.previouslySwitchedNodeWeight === 15 ?
-      15 : 0;
+      previousElement.className = this.previouslySwitchedNodeWeight === 15 ? "unvisited weight" : this.previouslyPressedNodeStatus;
+      this.previouslySwitchedNode.weight = this.previouslySwitchedNodeWeight === 15 ? 15 : 0;
       this.previouslySwitchedNode = null;
       this.previouslySwitchedNodeWeight = currentNode.weight;
 
@@ -185,24 +183,22 @@ Board.prototype.changeSpecialNode = function(currentNode) {
   }
 };
 
+// basically adding walls, if onkeydown, if the node isnt a wall, change the status and classname to wall so that it would be a wall now
+// if wall, then change to unvisited node instead
 Board.prototype.changeNormalNode = function(currentNode) {
   let element = document.getElementById(currentNode.id);
   let relevantStatuses = ["start", "target", "object"];
   let unweightedAlgorithms = ["dfs", "bfs"]
   if (!this.keyDown) {
     if (!relevantStatuses.includes(currentNode.status)) {
-      element.className = currentNode.status !== "wall" ?
-        "wall" : "unvisited";
-      currentNode.status = element.className !== "wall" ?
-        "unvisited" : "wall";
+      element.className = currentNode.status !== "wall" ? "wall" : "unvisited";
+      currentNode.status = element.className !== "wall" ? "unvisited" : "wall";
       currentNode.weight = 0;
     }
   } else if (this.keyDown === 87 && !unweightedAlgorithms.includes(this.currentAlgorithm)) {
     if (!relevantStatuses.includes(currentNode.status)) {
-      element.className = currentNode.weight !== 15 ?
-        "unvisited weight" : "unvisited";
-      currentNode.weight = element.className !== "unvisited weight" ?
-        0 : 15;
+      element.className = currentNode.weight !== 15 ? "unvisited weight" : "unvisited";
+      currentNode.weight = element.className !== "unvisited weight" ? 0 : 15;
       currentNode.status = "unvisited";
     }
   }
@@ -343,7 +339,8 @@ Board.prototype.drawShortestPathTimeout = function(targetNodeId, startNodeId, ty
 
   timeout(0);
 
-  function timeout(index) {
+// 
+function timeout(index) {
     if (!currentNodesToAnimate.length) currentNodesToAnimate.push(board.nodes[board.start]);
     setTimeout(function () {
       if (index === 0) {
@@ -359,10 +356,10 @@ Board.prototype.drawShortestPathTimeout = function(targetNodeId, startNodeId, ty
       }
       timeout(index + 1);
     }, 40)
-  }
+}
 
 
-  function shortestPathChange(currentNode, previousNode, isActualTarget) {
+function shortestPathChange(currentNode, previousNode, isActualTarget) {
     if (currentNode === "object") {
       let element = document.getElementById(board.object);
       element.className = "objectTransparent";
@@ -435,7 +432,7 @@ Board.prototype.clearPath = function(clickedButton) {
     target.status = "target";
     document.getElementById(target.id).className = "target";
     if (object) {
-      object.status = "object";
+      object.status = "object"; 
       document.getElementById(object.id).className = "object";
     }
   }
