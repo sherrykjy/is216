@@ -20,16 +20,18 @@
 <div id="features" >
     <div class="row justify-content-center">
         <div class="col-2">
-            <p style="text-align: center; "> <img src="../assets/styling/tick.png" style="width: 30;"> 
-                Visualise Algorithms </p>
+            <p style="text-align: center; "> 
+              ✅ Visualise Algorithms </p>
         </div>
         <div class="col-2">
-            <p style="text-align: center; "> <img src="../assets/styling/tick.png" style="width: 30;"> 
-                Calculate Complexity </p>
+            <p style="text-align: center; "> 
+              <img src="../assets/styling/tick.png" class="img-fluid" 
+              style="max-width:10%; display: inline;" hspace="7">
+              Calculate Complexity </p>
         </div>
         <div class="col-2">
-            <p style="text-align: center; "> <img src="../assets/styling/tick.png" style="width: 30;"> 
-            Practice Questions </p>
+            <p style="text-align: center; ">  
+              ✅ Practice Questions </p>
         </div>
     </div>
 </div>
