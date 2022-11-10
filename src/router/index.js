@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import About from "../views/AboutView.vue";
 import AlgoVisualizer from '../views/AlgoVisualizer.vue';
 import LandingPage from "../views/LandingHomePage.vue";
+import quizPage from '../views/quizPage.vue'
 const routes = [
   {
     path: "/",
@@ -18,6 +19,11 @@ const routes = [
     path: "/algovisualizer",
     name: "AlgoVisualizer",
     component: AlgoVisualizer,
+  },
+  {
+    path: "/quiz",
+    name: "Quizzes",
+    component: quizPage
   }
 ];
 

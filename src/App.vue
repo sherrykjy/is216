@@ -1,8 +1,10 @@
+
 <template>
   <nav>
     | <router-link to="/">Home</router-link> |
     <router-link to="/algovisualizer">Algo Visualizer</router-link> |
     <router-link to="/about">Practice</router-link> |
+    <router-link to="/quiz">Quizzes</router-link>
   </nav>
   <router-view />
 </template>
