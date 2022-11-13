@@ -23,6 +23,7 @@ HOW-TO:
 4. Select Dijkstra OR Depth-first Search (DFS) 
 5. The Pathfinding Algorithm Visualizer will be triggered based on the selected algorithm
 
+
 ## Practice Questions
 Consists of: 
 
@@ -30,6 +31,14 @@ Consists of:
 1. COUNTING
 2. COMPLEXITY
 3. ITERATION
+
+HOW-TO: 
+1. Choose a chapter
+2. Pick the right answer
+3. If answer is wrong, it will appear red and the solution will appear
+4. If answer is correct, it will appear green
+5. At the end of the quiz, it will display your final score and you will have an option to try.
+6. GOOD LUCK!
 
 ## Pre-recorded lectures
 Youtube DATA API V3 is used to extract the playlist of pre-recorded lecture videos for students to watch it conveniently without having to toggle back to youtube. 
