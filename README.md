@@ -9,6 +9,12 @@ Our application supports the following:
 2. Practice Questions
 3. Access to Pre-recorded Lectures 
 
+## HOME PAGE + Review
+At the bottom of the home page, users are able to leave their review by selecting the "LEAVE A REVIEW" button. A form will pop up and users are required to fill in their name, their reviews and rating (out of 5 stars)
+
+Once submitted and the page is refreshed, it will displayed their review at the bottom of the page.
+
+
 ## Pathfinding Algorithm Visualizer
 1. Dijkstra's Algorithm (weighted):  An algorithm that guarantees the shortest path
 2. Depth-first Search (unweighted): A fundamental algorithm to learn in CT, do note that this does not guarantee the shortest path
