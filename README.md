@@ -7,5 +7,32 @@ Our application supports the following:
 2. Practice Questions
 3. Pre-recorded lectures 
 
+## Pathfinding Algorithm Visualizer
+1. Dijkstra's Algorithm (weighted): the father of pathfinding algorithms; guarantees the shortest path
+2. Breath-first Search (unweighted): a great algorithm; guarantees the shortest path
+
+## Practice Questions
+
+
+## Setting up
+1. On the new terminal of the folder, ENTER npm run serve. (Install npm if needed.)
+2. Enter the local server.
+If permission denied, ENTER:
+
+
+rm -rf node_modules/
+
+
+THEN:
+
+
+npm install
+  
+  
+THEN:
+
+
+npm run serve
+
 
 
