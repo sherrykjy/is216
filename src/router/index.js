@@ -1,9 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
 import About from "../views/AboutView.vue";
 import AlgoVisualizer from '../views/AlgoVisualizer.vue';
 import LandingPage from "../views/LandingHomePage.vue";
 import quizPage from '../views/quizPage.vue'
+import countingPage from '../views/countingPage.vue'
+import complexityPage from '../views/complexityPage.vue'
+import iterationPage from '../views/iterationPage.vue'
+import videosPage from '../views/videosView.vue'
+
 const routes = [
   {
     path: "/",
@@ -23,8 +27,29 @@ const routes = [
   {
     path: "/quiz",
     name: "Quizzes",
-    component: quizPage
+    component: quizPage,
+  },
+  {
+    path: '/counting',
+    name: 'Counting',
+    component: countingPage,
+  },
+  {
+    path: '/complexity',
+    name: 'Complexity',
+    component: complexityPage,
+  },
+  {
+    path: '/iteration',
+    name: 'Iteration',
+    component: iterationPage,
+  },
+  {
+    path: '/videos',
+    name: 'Videos',
+    component: videosPage,
   }
+
 ];
 
 const router = createRouter({

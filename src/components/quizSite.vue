@@ -1,7 +1,10 @@
 <script>
-    import {ref, computed, onMounted } from 'vue'
+    // import { QuerySnapshot } from '@firebase/firestore'
+    import { ref } from 'vue'
     import { db } from '../../firebase/index.js'
+
     import { collection, getDocs } from 'firebase/firestore';
+
     // onMounted(async () => {
     //     const querySnapshot = await getDocs(collection(db, "complexity"));
     //     let counting_bank = []
@@ -20,7 +23,7 @@
     //         })
     //     questions.value = counting_bank
     // })
-    
+    import fireBase from '../../firebase/index.js'
     
     
 
@@ -28,8 +31,8 @@ export default{
     name: "quizSite",
     data() {
         return {
-            questions: [],
-            countingBank: [],
+            questions: ref([{}]),
+            // countingBank: [],
             quizCompleted:  ref(false),
             currentQuestion: ref(0),
             currentExplanation: ref(0),
@@ -37,27 +40,21 @@ export default{
         }
     },
     created() {
-        async () => {
-            const querySnapshot = await getDocs(collection(db, "complexity"));
-            countingBank = []
-            querySnapshot.forEach((doc) => {
-            // doc.data() is never undefined for query doc snapshots;
-                const questionsRecords = {
-                    id: doc.id,
-                    question_id: doc.data().id,
-                    question: doc.data().question,
-                    answer: doc.data().answer,
-                    explanation: doc.data().explanation,
-                    option: doc.data().option,
-                    selected: doc.data().selected
-                }
-                countingBank.push(questionsRecords)
-                })
-            this.questions = countingBank
-            console.log(doc)
-        }
-
+      this.questions = getDocs(collection(db,'complexity'))
+      console.log(this.questions)
     },
+    // firestore() {
+    //   return {
+    //     questions: db.collection('complexity')
+    //   }
+    // },
+    // created() {
+    //   db.collections('complexity').get().then((QuerySnapshot) => {
+    //    QuerySnapshot.forEach((doc) => {
+    //     this.questions = doc.data
+    //    }) 
+    //   })
+    // },
     methods: {
         NextQuestion() {
             if (this.currentQuestion.value < this.questions.value.length - 1){
@@ -85,7 +82,7 @@ export default{
         },
         getCurrentQuestion() {
             let question = this.questions.value[this.currentQuestion.value]
-            question.index = this.currentQuestion.value 
+            question.index = this.currentQuestion.value
 
             return question 
         },

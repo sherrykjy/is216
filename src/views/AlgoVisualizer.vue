@@ -1,17 +1,17 @@
 <script>
-    import AlgoPage from "@/components/algopage.vue";
+    import newGrid from "@/components/newGrid.vue";
     export default {
         name: "AlgoVisualizer",
         components: {
-            AlgoPage,
+            newGrid,
         },
     };
 </script>
 
 <template>
     <div class="algos">
-        <AlgoPage></AlgoPage>
-        
+        <!-- <AlgoPage></AlgoPage> -->
+        <newGrid></newGrid>
     </div>
 </template>
 
