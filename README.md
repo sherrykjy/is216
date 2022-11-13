@@ -10,7 +10,7 @@ Our application supports the following:
 ## Pathfinding Algorithm Visualizer
 1. Dijkstra's Algorithm (weighted): the father of pathfinding algorithms; guarantees the shortest path
 2. Depth-first Search (unweighted): a very bad algorithm for pathfinding; does not guarantee the shortest path
-3. RANDOM MAZE GENERATOR
+3. RANDOM MAZE GENERATOR: Will generate a wall around the map randomly
 
 
 HOW-TO:
