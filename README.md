@@ -53,9 +53,13 @@ HOW-TO:
 2. Select the video you want if not, you can use the search feature to find:
 
 
-1. the topic (E.g mergesort)
-2. the professor (E.g Vivien)
-3. Mid-terms or finals (E.g mid-term)
+a. the topic (E.g mergesort)
+
+
+b. the professor (E.g Vivien)
+
+
+c. Mid-terms or finals (E.g mid-term)
 
 
 P.S Due to the limiting quota on the number of queries search per day, the max result displayed will only be 10.
