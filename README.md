@@ -9,7 +9,16 @@ Our application supports the following:
 
 ## Pathfinding Algorithm Visualizer
 1. Dijkstra's Algorithm (weighted): the father of pathfinding algorithms; guarantees the shortest path
-2. Breath-first Search (unweighted): a great algorithm; guarantees the shortest path
+2. Depth-first Search (unweighted): a very bad algorithm for pathfinding; does not guarantee the shortest path
+3. RANDOM MAZE GENERATOR
+
+
+HOW-TO:
+1. Wait for the walls to be fully loaded
+2. Select tutorial
+3. Move Mario and Princess Peachy to wherever you like
+4. Select Dijkstra OR Depth-first Search (DFS) 
+5. The Pathfinding Algorithm Visualizer will be triggered based on the selected algorithm
 
 ## Practice Questions
 Consists of: 
