@@ -12,7 +12,20 @@ Our application supports the following:
 2. Breath-first Search (unweighted): a great algorithm; guarantees the shortest path
 
 ## Practice Questions
+Consists of: 
 
+
+1. COUNTING
+2. COMPLEXITY
+3. ITERATION
+
+## Pre-recorded lectures
+Youtube DATA API V3 is used to extract the playlist of pre-recorded lecture videos for students to watch it conveniently without having to toggle back to youtube. 
+
+A search feature to search for a particular professor or topics. 
+
+
+Youtube playlist taken from: https://www.youtube.com/channel/UCTzqoybeq893ko72GFYb0pA 
 
 ## Setting up
 1. On the new terminal of the folder, ENTER npm run serve. (Install npm if needed.)
