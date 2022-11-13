@@ -67,7 +67,7 @@ P.S Due to the limiting quota on the number of queries search per day, the max r
 ## Setting up
 1. On the new terminal of the folder, ENTER npm run serve. (Install npm if needed.)
 2. Enter the local server.
-If permission denied, ENTER:
+3. If permission denied, ENTER:
 
 
 rm -rf node_modules/
