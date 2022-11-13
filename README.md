@@ -48,6 +48,18 @@ A search feature to search for a particular professor or topics.
 
 Youtube playlist taken from: https://www.youtube.com/channel/UCTzqoybeq893ko72GFYb0pA 
 
+HOW-TO: 
+1. Once the page is fully loaded, it will display all of the videos from the channel. 
+2. Select the video you want if not, you can use the search feature to find:
+
+
+1. the topic (E.g mergesort)
+2. the professor (E.g Vivien)
+3. Mid-terms or finals (E.g mid-term)
+
+
+P.S Due to the limiting quota on the number of queries search per day, the max result displayed will only be 10.
+
 ## Setting up
 1. On the new terminal of the folder, ENTER npm run serve. (Install npm if needed.)
 2. Enter the local server.
