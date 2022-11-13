@@ -1,4 +1,4 @@
-# Mario Univer-CT
+# [IS216] G1-T4 : Mario Univer-CT
 Welcome to Mario Univer-CT where here, we aim to aid your learning in COR-IS1702, Computational Thinking (CT). CT is coined as one of the hardest IS modules in SMU due to its steep learning curve given the complexity of content covered over 14 weeks. 
 
 Mario Univer-CT was created with the aim to provide support for students and promote independent learning. Understanding the main concerns - difficulty of content covered as well as heavy pre-class preparation (eg: tutorials, pre-recorded lectures to watch pre-class), we focused on harnessing the most effective elements for learning and placed them into Mario Univer-CT.
