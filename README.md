@@ -86,6 +86,3 @@ P.S Due to the limiting quota on the number of queries search per day, the max r
 
 
     npm run serve
-
-
-
