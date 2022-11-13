@@ -70,19 +70,19 @@ P.S Due to the limiting quota on the number of queries search per day, the max r
 3. If permission denied, ENTER:
 
 
-rm -rf node_modules/
+        rm -rf node_modules/
 
 
-THEN:
+        THEN:
 
 
-npm install
-  
-  
-THEN:
+        npm install
 
 
-npm run serve
+        THEN:
+
+
+        npm run serve
 
 
 
