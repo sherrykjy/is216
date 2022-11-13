@@ -28,7 +28,7 @@ HOW-TO:
 3. Move Mario and Princess Peach to wherever you like
 4. Select an Algorithm: Dijkstra or Depth-first Search (DFS)
 
-The Pathfinding Algorithm Visualizer will be triggered automatically based on the selected algorithm.
+The Pathfinding Algorithm Visualizer will be triggered automatically based on the selected algorithm. Further explanation can be found at the bottom of the page.
 
 ## Practice Questions
 Consists of: 
