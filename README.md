@@ -77,7 +77,8 @@ P.S Due to the limiting quota on the number of queries search per day, the max r
 
 
     THEN:
-
+    
+    npm remove @vue/cli-plugin-eslint
 
     npm install
 
